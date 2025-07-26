@@ -5,7 +5,7 @@ const repoCount = 50;
 
 console.log(`I am ${name} and my repocount is ${repoCount}`); 
 
-const gameName = "Akash-ag-com"; 
+const gameName = new String("Akash-ag-com");  // this gives below functions, this is ans object, we can have some functions that we don't get to use in normal string 
 // console.log(gameName[0]);  // char at 0th index 
 // console.log(gameName.__proto__); 
 
